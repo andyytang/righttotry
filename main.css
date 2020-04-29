@@ -113,3 +113,16 @@ h4 {
     margin: 0;
     padding: 0;
 }
+
+a, a:visited {
+    font-weight: 700;
+    color: var(--goalcolor);
+    text-decoration: none;
+}
+
+a:hover {
+    font-style:italic;
+    font-weight: 700;
+    color: var(--goalcolor);
+    text-decoration: none;
+}
