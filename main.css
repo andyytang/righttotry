@@ -1,0 +1,115 @@
+/* THIS SOURCE IS FUCKING SHIT PLEASE DONT LOOK AT IT*/
+
+body {
+    /* Line spacing of 1.5 */
+    line-height: 1.5;
+    /* CC0 image uploaded onto imgur, original source from Pixabay */
+    background-image: url("https://i.imgur.com/605tJ0Nm.jpg");
+    /* Colored variables defined */
+    --goalcolor: #C52333;
+    --offwhite: #E0E0E0;
+    --charcoal: #36454F;
+    --lightred: #DBBDC0;
+    --birch: #F8DFA1;
+    --lavender: #967BB6;
+    text-align: justify;
+
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 3px solid #36454F;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table {
+    border-radius: 0 14px 0 14px;
+}
+
+th {
+    border-radius: 0 10px 0 0;
+    font-size: 32px;
+    height: 20%;
+}
+
+td {
+    font-size: 24px;
+}
+
+tr:last-child td {
+    border-radius: 0 0 0 10px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 10px;
+    width: 12%;
+    height: 90%;
+    margin: 0;
+    background: linear-gradient(rgba(216, 191, 129, 0.94), rgba(54, 69, 79, 0.94) 200px);
+    color: var(--offwhite);
+    box-shadow: 10px 10px 3px -3px rgba(0,0,0,0.75);
+    font-family: Karla, Helvetica, sans-serif;
+    transition: box-shadow 1s;
+}
+
+blockquote {
+    border-radius: 10px 0 10px 0;
+    background: linear-gradient(150deg, var(--birch), var(--lightred) 40%);
+    padding: 10px;
+}
+
+.author {
+    color: var(--birch);
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    /* Assign overall values. Have a box-shadow transition */
+    background: linear-gradient(30deg, #F0F0F0D0, #B0C4DED0);
+    margin-left: 15%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    box-shadow: 10px 10px 3px -3px rgba(0,0,0,0.75);
+    font-family: Karla, Helvetica, sans-serif;
+    transition: box-shadow 1s;
+    color: var(--charcoal);
+}
+
+.container:hover, .sidebar:hover {
+    /* Have a box-shadow transition on hover */
+    box-shadow: 20px 20px 5px -5px rgba(0,0,0,0.75);
+    transition: box-shadow 1s;
+}
+
+h2 {
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+h1, h3 {
+    font-family: Lato, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
